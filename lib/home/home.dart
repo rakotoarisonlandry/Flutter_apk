@@ -34,8 +34,12 @@ class Home extends StatelessWidget {
               ),
             ),
           ),
-          const Column(
-            children: [HeaderSection(), SearchSection(), CategoriSection()],
+          Column(
+            children: [
+              const HeaderSection(),
+              const SearchSection(),
+              CategoriSection()
+            ],
           )
         ]),
       ),
