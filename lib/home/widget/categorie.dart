@@ -40,12 +40,14 @@ class CategoriSection extends StatelessWidget {
         children: [
           Container(
             height: 50,
+            color: const Color.fromARGB(255, 83, 43, 193),
             child: ListView.builder(
-              itemBuilder: (context, index) {},
+              itemBuilder: (context, index) {
+                return null;
+              },
               itemCount: categories.length,
               scrollDirection: Axis.horizontal,
             ),
-            color: const Color.fromARGB(255, 83, 43, 193),
           )
         ],
       ),
